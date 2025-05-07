@@ -1,5 +1,11 @@
 {
-    "private": true,
+    "name": "@kaladin13/tact-jetton",
+    "version": "1.0.0",
+    "description": "Tact Jetton as test npm package",
+    "files": [
+        "./src/contracts/",
+        "./src/output/*.ts"
+    ],
     "scripts": {
         "build": "yarn build:base && yarn build:governance && yarn build:feature-rich",
         "build:base": "tact --config ./tact.config.json --project Jetton",
